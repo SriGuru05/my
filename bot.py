@@ -41,7 +41,7 @@ START_MSG="𝗛𝗲𝗹𝗹𝗼 {} ,\n𝗛𝗲𝘆,  😎\n\n𝗜 𝗔𝗺 𝗠�
 
 buttons=InlineKeyboardMarkup(
             [[
-                InlineKeyboardButton("🤖 Bot Forward Channel", url="https://t.me/RestrictedContentForwardLog")
+                InlineKeyboardButton("🤖 Bot Channel", url="https://t.me/HindiMovieSearchBotz")
             ],[
                 InlineKeyboardButton("⚙️ Help", callback_data="help_data"),
                 InlineKeyboardButton("📝 About", callback_data="about_data")
@@ -62,7 +62,7 @@ STAT_BUTTONS = InlineKeyboardMarkup(
 
 START_BUTTONS = InlineKeyboardMarkup(
             [[
-                InlineKeyboardButton("🤖 Bot Log", url="https://t.me/DKBOTZ")
+                InlineKeyboardButton("🤖 Bot Channel", url="https://t.me/HindiMovieSearchBotz")
             ],[
                 InlineKeyboardButton("⚙️ More Help", callback_data="help_data"),
                 InlineKeyboardButton("📝 About", callback_data="about_data")
