@@ -47,11 +47,11 @@ buttons=InlineKeyboardMarkup(
 
 
 @Client.on_message(filters.private & filters.command('start'))
-async def start(client, message):
-    Fsub = await ForceSub(client, message)
+async def start(bot, message):
+    Fsub = await ForceSub(bot, message)
     if Fsub == 400:
         return
-    await client.send_message(
+    await bot.send_message(
         chat_id=message.chat.id,
         text=START_MSG.format(
                 message.from_user.first_name),
