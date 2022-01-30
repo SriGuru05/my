@@ -37,11 +37,11 @@ bot = Client('Doodstream bot',
              sleep_threshold=0)
 
 
-START_MSG="𝗛𝗲𝗹𝗹𝗼 {} ,\n𝗛𝗲𝘆,  😎\n\n𝗜 𝗔𝗺 𝗠𝗱𝗶𝘀𝗸 𝗕𝘂𝗹𝗸 𝗟𝗶𝗻𝗸 𝗖𝗼𝗻𝘃𝗲𝗿𝘁𝗲𝗿 𝗕𝗼𝘁. 𝗜 𝗖𝗮𝗻 𝗖𝗼𝗻𝘃𝗲𝗿𝘁 𝗢𝘁𝗵𝗲𝗿 𝗠𝗱𝗶𝘀𝗸 𝗟𝗶𝗻𝗸. \n\n🔰 𝗜 𝗖𝗮𝗻 𝗥𝗲𝗺𝗼𝘃𝗲 𝗣𝗼𝘀𝘁 𝗶𝗻 𝗔𝗻𝗼𝘁𝗵𝗲𝗿 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 𝗟𝗶𝗻𝗸𝘀.\n\n🔰 𝗜 𝗖𝗮𝗻 𝗕𝗼𝗹𝗱 𝗔𝗹𝗹 𝗠𝗲𝘀𝘀𝗮𝗴𝗲𝘀\n\n𝐈𝐟 𝐘𝐨𝐮 𝐖𝐚𝐧𝐭 𝐌𝐨𝐫𝐞 𝐇𝐞𝐥𝐩 𝐒𝐞𝐧𝐝 /help\n\n👨🏻‍💻 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿 :  <a href=https://t.me/Mdisk_By_Bot>𝐁𝐨𝐭 𝐂𝐫𝐞𝐚𝐭𝐨𝐫</a>"
+START_MSG="𝗛𝗲𝗹𝗹𝗼 {} ,\n𝗛𝗲𝘆,  😎\n\n𝗜 𝗔𝗺 𝗠𝗱𝗶𝘀𝗸 𝗕𝘂𝗹𝗸 𝗟𝗶𝗻𝗸 𝗖𝗼𝗻𝘃𝗲𝗿𝘁𝗲𝗿 𝗕𝗼𝘁. 𝗜 𝗖𝗮𝗻 𝗖𝗼𝗻𝘃𝗲𝗿𝘁 𝗢𝘁𝗵𝗲𝗿 𝗠𝗱𝗶𝘀𝗸 𝗟𝗶𝗻𝗸. \n\n🔰 𝗜 𝗖𝗮𝗻 𝗥𝗲𝗺𝗼𝘃𝗲 𝗣𝗼𝘀𝘁 𝗶𝗻 𝗔𝗻𝗼𝘁𝗵𝗲𝗿 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 𝗟𝗶𝗻𝗸𝘀.\n\n🔰 𝗜 𝗖𝗮𝗻 𝗕𝗼𝗹𝗱 𝗔𝗹𝗹 𝗠𝗲𝘀𝘀𝗮𝗴𝗲𝘀\n\n𝐈𝐟 𝐘𝐨𝐮 𝐖𝐚𝐧𝐭 𝐌𝐨𝐫𝐞 𝐇𝐞𝐥𝐩 𝐒𝐞𝐧𝐝 /help\n\n👨🏻‍💻 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿 :  <a href=https://t.me/Sri_Guru05>𝐁𝐨𝐭 𝐂𝐫𝐞𝐚𝐭𝐨𝐫</a>"
 
 buttons=InlineKeyboardMarkup(
             [[
-                InlineKeyboardButton("🤖 Bot Channel", url="https://t.me/HindiMovieSearchBotz")
+                InlineKeyboardButton("🤖 Bot Channel", url="https://t.me/MB_Links")
             ],[
                 InlineKeyboardButton("⚙️ Help", callback_data="help_data"),
                 InlineKeyboardButton("📝 About", callback_data="about_data")
@@ -62,7 +62,7 @@ STAT_BUTTONS = InlineKeyboardMarkup(
 
 START_BUTTONS = InlineKeyboardMarkup(
             [[
-                InlineKeyboardButton("🤖 Bot Channel", url="https://t.me/HindiMovieSearchBotz")
+                InlineKeyboardButton("🤖 Bot Channel", url="https://t.me/MB_Links")
             ],[
                 InlineKeyboardButton("⚙️ More Help", callback_data="help_data"),
                 InlineKeyboardButton("📝 About", callback_data="about_data")
@@ -74,7 +74,7 @@ START_BUTTONS = InlineKeyboardMarkup(
 
 HELP_BUTTONS = InlineKeyboardMarkup(
             [[
-                InlineKeyboardButton("👥 Support", url="https://t.me/DK_BOTZ")
+                InlineKeyboardButton("👥 Support", url="https://t.me/MB_Links")
             ],[
                 InlineKeyboardButton("🌐 Source Code", callback_data="source_data"),
                 InlineKeyboardButton("📝 About", callback_data="about_data")
@@ -94,7 +94,7 @@ ABOUT_BUTTONS = InlineKeyboardMarkup(
 
 SOURCE_BUTTONS = InlineKeyboardMarkup(
             [[
-                InlineKeyboardButton("👨🏻‍💻 Owner", url="https://t.me/Mdisk_By_Bot"),
+                InlineKeyboardButton("👨🏻‍💻 Owner", url="https://t.me/Sri_Guru05"),
                 InlineKeyboardButton("🏡 Home", callback_data="start_data"),
                 InlineKeyboardButton("❌ Close", callback_data="close")
             ]]
@@ -104,7 +104,7 @@ SOURCE_BUTTONS = InlineKeyboardMarkup(
 MORE_BUTTONS = InlineKeyboardMarkup(
             [[
                 InlineKeyboardButton("⚙️ Back", callback_data="help_data"),
-                InlineKeyboardButton("👥 Support", url="https://t.me/DK_BOTZ")
+                InlineKeyboardButton("👥 Support", url="https://t.me/MB_Links")
             ],[
                 InlineKeyboardButton("🌐 Source Code", callback_data="source_data"),
                 InlineKeyboardButton("📝 About", callback_data="about_data")
