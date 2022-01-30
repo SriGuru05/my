@@ -46,7 +46,7 @@ buttons=InlineKeyboardMarkup(
 
 
 
-@Client.on_message(filters.private & filters.command('start'))
+@bot.on_message(filters.private & filters.command('start'))
 async def start(bot, message):
     Fsub = await ForceSub(bot, message)
     if Fsub == 400:
