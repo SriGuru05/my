@@ -130,6 +130,19 @@ async def start(bot, message):
 
 
 
+@bot.on_message(filters.private & filters.command('help'))
+async def help(bot, message):
+    Fsub = await ForceSub(bot, message)
+    if Fsub == 400:
+        return
+    await bot.send_message(
+        chat_id=message.chat.id,
+        text=START_MSG.format(
+                message.from_user.first_name),
+        reply_markup=buttons,
+        disable_web_page_preview=True,
+        parse_mode="html")
+
             
 @bot.on_callback_query()
 async def cb_handler(client: Client, query: CallbackQuery):
