@@ -6,8 +6,8 @@
         "MDisk",
         "shortner"
     ],
-    "website": "https://github.com/Amul-jat/Doodstreambot",
-    "repository": "https://github.com/Dhhonu/my",
+    "website": "https://github.com/SriGuru05",
+    "repository": "https://github.com/SriGuru05/my",
     "env": {
         "BOT_TOKEN": {
             "description": "Your bot token (must add)",
@@ -23,7 +23,7 @@
         },
         "CUSTOM_FOOTER": {
             "description": "Enter your Custom Footer",
-            "value": "BY @DKBOTZ"
+            "value": "BY @MB_Links"
         },
         "LOG_ID": {
             "description": "Enter your Custom Footer",
@@ -31,7 +31,7 @@
         },
         "MDISK_TOKEN": {
             "description": "Put your MDisk API key here",
-            "value": "Xf95VpOFZgGy95EXXliD"
+            "value": "gwYW6KgaUuPiwPKMy8WY"
         }
     },
     "addons": [],
