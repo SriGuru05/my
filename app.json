@@ -15,11 +15,11 @@
         },
         "API_ID": {
             "description": "Get this value from https://my.telegram.org",
-            "value": "4464291"
+            "value": "5986167"
         },
         "API_HASH": {
             "description": "Get this value from https://my.telegram.org",
-            "value": "1dde1cb551ed4f51034988414a199dbf"
+            "value": "174decf6487d00dcd13c5d7153254f2b"
         },
         "CUSTOM_FOOTER": {
             "description": "Enter your Custom Footer",
