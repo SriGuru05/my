@@ -4,7 +4,7 @@ class script(object):
     
     HELP_MSG = """𝗛𝗲𝗹𝗹𝗼 {} \n\n𝗔𝘃𝗮𝗶𝗹𝗮𝗯𝗹𝗲 𝗰𝗼𝗺𝗺𝗮𝗻𝗱𝘀:-\n\n/copy - 𝗧𝗼 𝗰𝗼𝗽𝘆 𝗮 𝗰𝗵𝗮𝗻𝗻𝗲𝗹 𝗠𝗲𝘀𝘀𝗮𝗴𝗲\n/forward - 𝗧𝗼 𝘀𝘁𝗮𝗿𝘁 𝗳𝗼𝗿𝘄𝗮𝗿𝗱𝗶𝗻𝗴 𝗠𝗲𝘀𝘀𝗮𝗴𝗲\n/total - 𝗖𝗼𝘂𝗻𝘁 𝘁𝗼𝘁𝗮𝗹 𝗺𝗲𝘀𝘀𝗮𝗴𝗲𝘀 𝗶𝗻 𝗗𝗕\n/status - 𝗖𝗵𝗲𝗰𝗸 𝗖𝘂𝗿𝗿𝗲𝗻𝘁 𝘀𝘁𝗮𝘁𝘂𝘀\n/help - 𝗛𝗲𝗹𝗽 𝗱𝗮𝘁𝗮\n/about - 𝗕𝗼𝘁 𝗜𝗻𝗳𝗼\n/stop - 𝗧𝗼 𝘀𝘁𝗼𝗽 𝗮𝗹𝗹 𝗿𝘂𝗻𝗻𝗶𝗻𝗴 𝗽𝗿𝗼𝗰𝗲𝘀𝘀𝗲𝘀.\n\n𝗨𝘀𝗲 /copy 𝗧𝗼 𝗖𝗼𝗽𝘆 𝗠𝗲𝘀𝘀𝗮𝗴𝗲𝘀 𝗙𝗿𝗼𝗺 𝗔 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 𝗧𝗼 𝗗𝗮𝘁𝗮𝗯𝗮𝘀𝗲.\n𝗔𝗳𝘁𝗲𝗿 𝗖𝗼𝗽𝘆 𝗬𝗼𝘂 𝗖𝗮𝗻 𝗦𝘁𝗮𝗿𝘁 𝗙𝗼𝗿𝘄𝗮𝗿𝗱𝗶𝗻𝗴 𝗕𝘆 𝗨𝘀𝗶𝗻𝗴 /forward.\n\n𝗬𝗼𝘂 𝗪𝗶𝗹𝗹 𝗚𝗲𝘁 𝗬𝗼𝘂𝗿 𝗙𝗼𝗿𝘄𝗮𝗿𝗱 𝗙𝗶𝗹𝗲 𝗶𝗻 𝗧𝗵𝗶𝘀 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 :-  @RestrictedContentForwardLog\n\n© 𝗕𝘆 @DKBOTZFUTURE 𝐓𝐞𝐚𝐦 ❤️"""
     
-    ABOUT_MSG = """🤖 𝐌𝐲 𝐍𝐚𝐦𝐞 : <a href=https://t.me/RestrictedContentForwardBot>𝐑𝐞𝐬𝐭𝐫𝐢𝐜𝐭𝐞𝐝 𝐂𝐨𝐧𝐭𝐞𝐧𝐭 𝐅𝐨𝐫𝐰𝐚𝐫𝐝 𝐁𝐨𝐭 </a>
+    ABOUT_MSG = """🤖 𝐌𝐲 𝐍𝐚𝐦𝐞 : <a href=https://t.me/Mdisk_By_Bot>𝐑𝐞𝐬𝐭𝐫𝐢𝐜𝐭𝐞𝐝 𝐂𝐨𝐧𝐭𝐞𝐧𝐭 𝐅𝐨𝐫𝐰𝐚𝐫𝐝 𝐁𝐨𝐭 </a>
 
 📝 𝐋𝐚𝐧𝐠𝐮𝐚𝐠𝐞 :  <a href=https://www.python.org>𝐏𝐲𝐭𝐡𝐨𝐧3</a>
 
@@ -12,7 +12,7 @@ class script(object):
 
 📡 𝐇𝐨𝐬𝐭𝐞𝐝 𝐨𝐧 : <a href=https://t.me/DKBOTZFUTURE>𝐕𝐏𝐒</a>
 
-🧑🏻‍💻 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫: <a href=https://t.me/DKBOTZHELP>𝐀𝐧𝐨𝐧𝐲𝐦𝐨𝐮𝐬</a>
+🧑🏻‍💻 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫: <a href=https://t.me/DKBOTZHELP>𝐁𝐨𝐭 𝐂𝐫𝐞𝐚𝐭𝐨𝐫</a>
 
 👥 𝐒𝐮𝐩𝐩𝐨𝐫𝐭 𝐆𝐫𝐨𝐮𝐩 : <a href=https://t.me/DK_BOTZ>𝐃𝐊 𝐁𝐎𝐓𝐙 𝐒𝐔𝐏𝐏𝐎𝐑𝐓</a>
 
@@ -29,7 +29,7 @@ class script(object):
 
 📡 𝐇𝐨𝐬𝐭𝐞𝐝 𝐨𝐧 : <a href=https://t.me/DKBOTZFUTURE>𝐕𝐏𝐒</a>
 
-🧑🏻‍💻 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫: <a href=https://t.me/DKBOTZHELP>𝐀𝐧𝐨𝐧𝐲𝐦𝐨𝐮𝐬</a>
+🧑🏻‍💻 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫: <a href=https://t.me/Mdisk_By_Bot>𝐁𝐨𝐭 𝐂𝐫𝐞𝐚𝐭𝐨𝐫</a>
 
 👥 𝐒𝐮𝐩𝐩𝐨𝐫𝐭 𝐆𝐫𝐨𝐮𝐩 : <a href=https://t.me/DK_BOTZ>𝐃𝐊 𝐁𝐎𝐓𝐙 𝐒𝐔𝐏𝐏𝐎𝐑𝐓</a>
 
@@ -44,10 +44,10 @@ class script(object):
 
 𝗕𝗮𝗻𝗸 𝗗𝗲𝘁𝗮𝗶𝗹𝘀 𝗙𝗼𝗿 𝗠𝗼𝗻𝗲𝘆 𝗧𝗿𝗮𝗻𝘀𝗳𝗲𝗿
 
-Account Holder Name : `MR MONU KUMAR PURI`
-Account Number : `30098100093971`
-Bank Name : `Bank of Baroda`
-IFSC CODE : `BARB0SIWANX`
+𝗔𝗰𝗰𝗼𝘂𝗻𝘁 𝗛𝗼𝗹𝗱𝗲𝗿 𝗡𝗮𝗺𝗲 : `MR MONU KUMAR PURI`
+𝗔𝗰𝗰𝗼𝘂𝗻𝘁 𝗡𝘂𝗺𝗯𝗲𝗿 : `30098100093971`
+𝗕𝗮𝗻𝗸 𝗡𝗮𝗺𝗲 : `Bank of Baroda`
+𝐈𝐅𝐒𝐂 𝐂𝐎𝐃𝐄 : `BARB0SIWANX`
 
 
 𝗦𝗲𝗻𝗱 𝗦𝗰𝗿𝗲𝗲𝗻𝘀𝗵𝗼𝘁 𝗧𝗼 :- @Mdisk_By_Bot
