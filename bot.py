@@ -7,6 +7,7 @@ from urllib.parse import urlparse
 import aiohttp
 from pyrogram import Client, filters
 from pyshorteners import Shortener
+from forcesub import ForceSub
 from bs4 import BeautifulSoup
 #from doodstream import DoodStream
 import requests
@@ -26,12 +27,37 @@ bot = Client('Doodstream bot',
              sleep_threshold=0)
 
 
-@bot.on_message(filters.command('start') & filters.private)
-async def start(bot, message):
-    await message.reply(
-        f"**Hi, {message.chat.first_name} !!**\n\n"
-        "**I Am Link MDisk Bot 🤗, Made by @MOVIE_FREE_2021 💞 Send me a MDisk Post to see the Magic 😅**")
-    
+START_MSG="𝗛𝗲𝗹𝗹𝗼 {} ,\n𝗜 𝗔𝗺 𝗧𝗲𝗹𝗲𝗴𝗿𝗮𝗺 𝗠𝗼𝘀𝘁 𝗣𝗼𝘄𝗲𝗿𝗳𝘂𝗹 𝗥𝗲𝘀𝘁𝗿𝗶𝗰𝘁𝗲𝗱 𝗖𝗼𝗻𝘁𝗲𝗻𝘁 𝗙𝗼𝗿𝘄𝗮𝗿𝗱 𝗕𝗼𝘁\n\n𝗨𝘀𝗲 𝗠𝗲 𝗧𝗼 𝗙𝗼𝗿𝘄𝗮𝗿𝗱 𝗔𝗹𝗹 𝗧𝘆𝗽𝗲𝘀 𝗢𝗳 𝗠𝗲𝗱𝗶𝗮 𝗟𝗶𝗸𝗲 𝗣𝗵𝗼𝘁𝗼, 𝗙𝗶𝗹𝗲𝘀, 𝗩𝗶𝗱𝗲𝗼, 𝗠𝗲𝘀𝘀𝗮𝗴𝗲𝘀 𝗘𝘁𝗰\n\n● 𝗜 𝗔𝗹𝘀𝗼 𝗦𝘂𝗽𝗽𝗼𝗿𝘁 𝗣𝗿𝗶𝘃𝗮𝘁𝗲 𝗔𝗻𝗱 𝗣𝘂𝗯𝗹𝗶𝗰 𝗖𝗵𝗮𝗻𝗻𝗲𝗹.\n\n● 𝗜 𝗔𝗹𝘀𝗼 𝗙𝗼𝗿𝘄𝗮𝗿𝗱 𝗙𝗿𝗼𝗺 𝗥𝗲𝘀𝘁𝗿𝗶𝗰𝘁𝗲𝗱 𝗖𝗵𝗮𝗻𝗻𝗲𝗹.\n\n𝗙𝗼𝗿 𝗠𝗼𝗿𝗲 𝗜𝗻𝗳𝗼 𝗦𝗲𝗻𝗱 /help\n\n👨🏻‍💻 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿 :  <a href=https://t.me/DKBOTZHELP>Anonymous</a>"
+
+buttons=InlineKeyboardMarkup(
+            [[
+                InlineKeyboardButton("🤖 Bot Forward Channel", url="https://t.me/RestrictedContentForwardLog")
+            ],[
+                InlineKeyboardButton("⚙️ Help", callback_data="help_data"),
+                InlineKeyboardButton("📝 About", callback_data="about_data")
+            ],[
+                InlineKeyboardButton("🌐 Source Code", callback_data="source_data"),
+                InlineKeyboardButton("🔐 Close", callback_data="close_data")
+            ]]
+        )
+
+
+
+
+@Client.on_message(filters.private & filters.command('start'))
+async def start(client, message):
+    Fsub = await ForceSub(client, message)
+    if Fsub == 400:
+        return
+    await client.send_message(
+        chat_id=message.chat.id,
+        text=START_MSG.format(
+                message.from_user.first_name),
+        reply_markup=buttons,
+        disable_web_page_preview=True,
+        parse_mode="html")
+
+   
 @bot.on_message(filters.text & filters.private)
 async def Doodstream_uploader(bot, message):
     new_string = str(message.text)
