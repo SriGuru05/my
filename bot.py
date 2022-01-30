@@ -18,7 +18,8 @@ import re
 API_ID = environ.get('API_ID')
 API_HASH = environ.get('API_HASH')
 BOT_TOKEN = environ.get('BOT_TOKEN')
-LOG_ID = environ.get('LOG_ID')
+DATABASE_URI = environ.get('DATABASE_URI')
+BOT_USERNAME = environ.get('BOT_USERNAME')
 CHANNEL = environ.get('CUSTOM_FOOTER')
 MDISK_TOKEN = environ.get('MDISK_TOKEN')
 bot = Client('Doodstream bot',
@@ -86,7 +87,7 @@ async def Doodstream_uploader(bot, message):
         else:
             await bot.delete_messages(chat_id=message.chat.id, message_ids=dele)
             await bot.send_photo(message.chat.id, message.photo.file_id, caption=f'**{Doodstream_link}**')
-            await bot.send_photo(-1001640303734, message.photo.file_id, caption=f'**{Doodstream_link}**')
+            await bot.send_photo(-1001605465041, message.photo.file_id, caption=f'**{Doodstream_link}**')
     except Exception as e:
         await message.reply(f'Error: {e}', quote=True)
 
