@@ -30,7 +30,7 @@ STAT_BUTTONS = InlineKeyboardMarkup(
 
 START_BUTTONS = InlineKeyboardMarkup(
             [[
-                InlineKeyboardButton("🤖 Bot Log", url="https://t.me/DKBOTZ")
+                InlineKeyboardButton("🤖 Bot Log", url="https://t.me/MB_Links")
             ],[
                 InlineKeyboardButton("⚙️ More Help", callback_data="help_data"),
                 InlineKeyboardButton("📝 About", callback_data="about_data")
@@ -42,7 +42,7 @@ START_BUTTONS = InlineKeyboardMarkup(
 
 HELP_BUTTONS = InlineKeyboardMarkup(
             [[
-                InlineKeyboardButton("👥 Support", url="https://t.me/DK_BOTZ")
+                InlineKeyboardButton("👥 Support", url="https://t.me/MB_Links")
             ],[
                 InlineKeyboardButton("🌐 Source Code", callback_data="help_data"),
                 InlineKeyboardButton("📝 About", callback_data="about_data")
@@ -62,7 +62,7 @@ ABOUT_BUTTONS = InlineKeyboardMarkup(
 
 SOURCE_BUTTONS = InlineKeyboardMarkup(
             [[
-                InlineKeyboardButton("👨🏻‍💻 Owner", url="https://t.me/DKBOTZHELP"),
+                InlineKeyboardButton("👨🏻‍💻 Owner", url="https://t.me/Sri_Guru05"),
                 InlineKeyboardButton("🏡 Home", callback_data="start_data"),
                 InlineKeyboardButton("❌ Close", callback_data="close")
             ]]
@@ -72,7 +72,7 @@ SOURCE_BUTTONS = InlineKeyboardMarkup(
 MORE_BUTTONS = InlineKeyboardMarkup(
             [[
                 InlineKeyboardButton("⚙️ Back", callback_data="help_data"),
-                InlineKeyboardButton("👥 Support", url="https://t.me/DK_BOTZ")
+                InlineKeyboardButton("👥 Support", url="https://t.me/MB_Links")
             ],[
                 InlineKeyboardButton("🌐 Source Code", callback_data="help_data"),
                 InlineKeyboardButton("📝 About", callback_data="about_data")
