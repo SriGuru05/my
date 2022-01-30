@@ -1,6 +1,6 @@
-# (c) @AbirHasan2005
+# (c) @DKBOTZ
 
-from config import Config
+from bot import Config DATABASE_URI, BOT_USERNAME
 from help.database import Database
 
-db = Database(Config.DATABASE_URI, Config.BOT_USERNAME)
+db = Database(DATABASE_URI, BOT_USERNAME)
