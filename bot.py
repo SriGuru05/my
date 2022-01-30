@@ -6,6 +6,8 @@ from urllib.request import urlopen
 from urllib.parse import urlparse
 import aiohttp
 from pyrogram import Client, filters
+from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
+
 from pyshorteners import Shortener
 from forcesub import ForceSub
 from bs4 import BeautifulSoup
