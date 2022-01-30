@@ -2,8 +2,6 @@ from os import environ
 import os
 import time
 from script import script  # pylint:disable=import-error
-from help.access_db import db
-from help.add_user import AddUserToDatabase
 import time
 import string
 import shutil
