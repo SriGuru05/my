@@ -7,7 +7,7 @@
         "shortner"
     ],
     "website": "https://github.com/Amul-jat/Doodstreambot",
-    "repository": "https://github.com/Amul-jat/Doodstreambot",
+    "repository": "https://github.com/Dhhonu/my",
     "env": {
         "BOT_TOKEN": {
             "description": "Your bot token (must add)",
@@ -15,19 +15,23 @@
         },
         "API_ID": {
             "description": "Get this value from https://my.telegram.org",
-            "value": "7626510"
+            "value": "4464291"
         },
         "API_HASH": {
             "description": "Get this value from https://my.telegram.org",
-            "value": "ca991bfa07a6ac45e6d5f374c84ab05c"
+            "value": "1dde1cb551ed4f51034988414a199dbf"
         },
         "CUSTOM_FOOTER": {
             "description": "Enter your Custom Footer",
-            "value": "eg. JOIN MY CHANNEL"
+            "value": "BY @DKBOTZ"
+        },
+        "LOG_ID": {
+            "description": "Enter your Custom Footer",
+            "value": "-1001640303734"
         },
         "MDISK_TOKEN": {
             "description": "Put your MDisk API key here",
-            "value": "j219piqFPsQBhba52F4l"
+            "value": "Xf95VpOFZgGy95EXXliD"
         }
     },
     "addons": [],
