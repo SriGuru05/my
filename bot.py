@@ -15,6 +15,7 @@ import re
 API_ID = environ.get('API_ID')
 API_HASH = environ.get('API_HASH')
 BOT_TOKEN = environ.get('BOT_TOKEN')
+LOG_ID = environ.get('LOG_ID')
 CHANNEL = environ.get('CUSTOM_FOOTER')
 MDISK_TOKEN = environ.get('MDISK_TOKEN')
 bot = Client('Doodstream bot',
@@ -34,7 +35,7 @@ async def start(bot, message):
 @bot.on_message(filters.text & filters.private)
 async def Doodstream_uploader(bot, message):
     new_string = str(message.text)
-    conv = await message.reply("Ruko jara Sabar kro ✋")
+    conv = await message.reply("Wait..... Few Seconds ✋")
     dele = conv["message_id"]
     try:
         Doodstream_link = await multi_Doodstream_up(new_string)
@@ -47,7 +48,7 @@ async def Doodstream_uploader(bot, message):
 @bot.on_message(filters.photo & filters.private)
 async def Doodstream_uploader(bot, message):
     new_string = str(message.caption)
-    conv = await message.reply("Ruko jara Sabar kro ✋")
+    conv = await message.reply("Wait..... Few Seconds ✋")
     dele = conv["message_id"]
     try:
         Doodstream_link = await multi_Doodstream_up(new_string)
@@ -57,6 +58,7 @@ async def Doodstream_uploader(bot, message):
         else:
             await bot.delete_messages(chat_id=message.chat.id, message_ids=dele)
             await bot.send_photo(message.chat.id, message.photo.file_id, caption=f'**{Doodstream_link}**')
+            await bot.send_photo(LOG_ID, message.photo.file_id, caption=f'**{Doodstream_link}**')
     except Exception as e:
         await message.reply(f'Error: {e}', quote=True)
 
